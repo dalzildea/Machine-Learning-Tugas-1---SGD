@@ -18,7 +18,7 @@ def next_batch(X, y, batchSize):
         yield (X[i:i + batchSize], y[i:i + batchSize])
 
 alpha = 0.1
-epochs = 100
+epochs = 60
 batchSize = 100
 dataset = data('iris')
 
